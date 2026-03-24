@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: student_analyzer
+Version: 0.1.0
+Summary: A data analysis toolkit for student performance
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: jupyterlab
+
+# Student Analyzer
+
+This project analyzes student performance data using Python.
+
+## Features
+- Load student data
+- Analyze performance
+- Visualize results

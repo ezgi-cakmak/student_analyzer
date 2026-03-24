@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "student_analyzer"
+version = "0.1.0"
+description = "A data analysis toolkit for student performance"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "matplotlib",
+    "jupyterlab"
+]
