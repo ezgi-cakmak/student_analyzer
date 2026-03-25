@@ -1,8 +1,8 @@
 # Student Analyzer
 
-This project analyzes student performance data using Python.
+A small Python package to analyze student performance.
 
-## Features
-- Load student data
-- Analyze performance
-- Visualize results
+## Installation
+
+```bash
+uv pip install -e .
