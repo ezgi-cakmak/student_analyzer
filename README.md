@@ -12,6 +12,7 @@ A Python-based tool designed to analyze and visualize student academic performan
 - **Visualization:** Generates a bar chart showing score distributions using `matplotlib`.
 
 ## Installation
+
 Ensure you have `uv` installed, then run:
 
 ```bash
