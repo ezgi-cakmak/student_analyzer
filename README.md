@@ -22,11 +22,11 @@ Ensure you have `uv` installed, then run:
 ```bash
 uv pip install -e .
 
-##Usage
+Usage
 To run the analysis and generate the report, use the following command in your terminal:
 uv run -m student_analyzer
 
-##Example Output
+Example Output
 When you run the analysis, the program generates a visual plot and displays a summary in the terminal:
 --- General Summary ---
 Total students analyzed: 10
@@ -37,3 +37,6 @@ Low performers:
       name  average
 4  William     47.5
 9      Mia     57.5
+
+License
+This project was created for educational purposes.
