@@ -21,18 +21,24 @@ def main():
         else:
             print("\nPerformance is excellent.")
 
+        print(f"\n--- General Summary ---")
+        print(f"Total students analyzed: {len(df)}")
+        print(f"Overall class average score: {mean:.2f}")
+        
         top_student = df.loc[df["average"].idxmax()]
-        print(f"\nTop student: {top_student['name']} ({top_student['average']:.2f})")
+        print(f"Top student: {top_student['name']} ({top_student['average']:.2f})")
 
         low_perf = df[df["average"] < 60]
         print("\nLow performers:")
         print(low_perf[["name", "average"]])
 
+        print("\nGenerating visualization...")
         df.plot(x="name", y="average", kind="bar", legend=False)
         plt.title("Student Average Scores")
         plt.xlabel("Students")
         plt.ylabel("Average Score")
         plt.tight_layout()
+        plt.savefig("average_plot.png")
         plt.show()
 
     except FileNotFoundError:
